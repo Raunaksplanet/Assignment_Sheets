@@ -1,3 +1,4 @@
+// This code have some issue I will fix later if i get time.
 #include <stdio.h>
 void main()
 {
