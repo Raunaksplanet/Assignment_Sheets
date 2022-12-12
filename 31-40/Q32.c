@@ -1,3 +1,15 @@
+Pattern 
+
+     * 
+    * *
+   * * *
+  * * * *
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+     
 #include <stdio.h>
 void main()
 {
