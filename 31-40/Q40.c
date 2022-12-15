@@ -9,7 +9,7 @@ int main ()
         scanf ("%d", &arr[i]);  
     }  
        
-    printf("Define the position of the array element where you want to delete: ");  
+    printf("Enter position to delete element: ");  
     scanf ("%d", &p);  
         
     if (p >= n+1)  
