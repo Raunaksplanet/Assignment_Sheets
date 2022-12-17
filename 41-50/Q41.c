@@ -4,9 +4,12 @@ int main()
 {
     int arr[10],temp,i,j,k;
     char c;
-    printf("Enter Array Elements ----\n\n");
+    printf("Enter Array Elements ----\n");
     for (i=0; i < 10; i++)
+    {
+        printf("[%d]-- ",i);
         scanf("%d",&arr[i]);
+    }
     printf("\n\nArray Elements Are--\n\n");
     for (i=0; i<10; i++)
         printf("%d ",arr[i]);
