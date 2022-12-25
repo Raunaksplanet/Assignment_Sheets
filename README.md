@@ -1,6 +1,5 @@
 # College-programming-sheet
-So, I got a C programming sheet from my college, In which there is roughly  88 questions beginner to advance level
-For c programming sheet you can check below images.
+So, I got a C programming sheet from my college, In which there is roughly  88 questions beginner to advance level. This questions covers  
 
 ![Lab Assignments - C Programming - Final (1)-1](https://user-images.githubusercontent.com/111748076/206483864-ef9aa8ff-6167-415a-9e92-df2607effd32.jpg)
 
