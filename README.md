@@ -11,3 +11,8 @@ So, I got a C programming sheet from my college, In which there is roughly  88 q
 
 ![Lab Assignments - C Programming - Final (1)-5](https://user-images.githubusercontent.com/111748076/206483884-bbe081f5-b993-4a51-b992-aedbae9ab58c.jpg)
 
+
+
+here is the Data structor sheet. Hope youre practicing as hard as Im doing
+[dsa question.pdf](https://github.com/Raunaksplanet/College-programming-sheets/files/10959612/dsa.question.pdf)
+
