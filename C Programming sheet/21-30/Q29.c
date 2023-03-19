@@ -7,8 +7,7 @@ void main()
 	for (j=1; j<=limit; j++)
 	{
 		temp=n=j;
-		for (count=0;n>0; (count++), (n = n / 10))
-			;
+		for (count=0;n>0; (count++), (n = n / 10));
 		n = temp;
 		for (arm=0;n>0;(n = n / 10))
 		{
