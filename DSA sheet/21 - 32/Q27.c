@@ -1,31 +1,29 @@
-#include<stdio.h>
-#include<conio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 int main()
 {
-    int i, j,k;
-    char str[50], tmp[50]="", tmp1[50];
-    
-    printf("Enter a String: ");
-    scanf("%[^\n]s",&str);
+    char temp[20], str[20];
+    int i, j;
 
-    for ( i = 0, k=0 ; str[i]!='\0' ; i++)
+    printf("Enter a string: ");
+    scanf("%[^\n]s", &str);
+
+    for (i = 0, j = 0; str[i] != '\0'; i++)
     {
-        if ( str[i]!=32)
+        if (str[i] != ' ')
         {
-            tmp1[k++]=str[i];
-            if ( str[i+1] == '\0'){
-                tmp1[k] = '\0';
-                strcat(tmp,strrev(tmp1));
+            temp[j++] = str[i];
+            if (str[i + 1] == '\0')
+            {
+                temp[j] = '\0';
+                printf("%s ", strrev(temp));
             }
         }
-        else{
-            tmp1[k] = '\0';
-            strcat(tmp,strrev(tmp1));
-            strcat(tmp," ");
-            k = 0;
+        else
+        {
+            temp[j] = '\0';
+            printf("%s ", strrev(temp));
+            j = 0;
         }
     }
-    printf("%s",tmp);
 }
-// q27
