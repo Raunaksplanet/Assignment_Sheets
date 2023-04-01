@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
 
-    int arr[10], i, j, data, count = 0, st = 0, stp = 9, mid = 0, temp;
+    int arr[10], i, j, data, count = 0, f = 0, l = 9, mid = 0, temp;
 
-    printf("Enter elements in array--\n\n");
+    printf("Enter elements in array\n");
     for (i = 0; i < 10; i++)
     {
         printf("Index No %d: ", i);
@@ -23,32 +24,33 @@ int main()
             }
         }
     }
-    printf("Enter data you want to find: ");
+    system("cls");
+    printf("Elements in array are\n");
+    for (i = 0; i < 10; i++)
+    {
+        printf("%d  ", arr[i]);
+    }
+
+    printf("\n\nEnter data you want to find: ");
     scanf("%d", &data);
 
-    while (st <= stp)
+    mid = (l + f) / 2;
+    while (f <= l)
     {
-        mid = (stp + st) / 2;
-
         if (data == arr[mid])
         {
             printf("Data Found\n");
             count++;
             break;
         }
-        else if (data > arr[mid])
+        else if (data < arr[mid])
         {
-            st = mid - 1;
+            f = mid + 1;
         }
         else
         {
-            st = mid + 1;
+            l = mid - 1;
         }
-        printf("%d  %d\n", st, stp);
     }
-    if (count == 0)
-    {
-        printf("Data not found");
-    }
+    (count == 0) ? printf("Data not found") : f;
 }
-//q12
