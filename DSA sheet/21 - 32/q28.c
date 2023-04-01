@@ -1,36 +1,24 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
  
-    int arr[10], n = 10, i, j, m1 = 0,m2 = 0;
-    printf("Enter elements in array---\n\n");
-    
-    for(i=0;i<n;i++)
-    {
-        printf("Index No [%d] -- ",i);
-        scanf("%d",&arr[i]);
-    }
+    int n,i,j;
+    char str[10];
 
-    printf("Array Elements are---\n\n");
+    printf("Enter a number: ");
+    scanf("%d",&n);
 
-    for(i=0;i<n;i++)
-    {
-        printf("%d  ",arr[i]);
-    }
+    itoa(n,str,10);
 
-    for(i=0;i<n;i++)
+    for(i=0;str[i+1] !='\0';i++)
     {
-        if(arr[i] > m1)
+        for(j=i+1;str[j] !='\0';j++)
         {
-            m2 = m1;
-            m1 = arr[i];
-        }
-        else if(arr[i] > m2 && arr[i] < m1)
-        {
-            m2 = arr[i];
+            printf("[%c,%c], ",str[i],str[j]);
         }
     }
+    printf("\b\b ");
 
-    printf("\n\n2nd maxium in Array: %d", m2);
 }
 // q28
