@@ -1,38 +1,40 @@
-// q7
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 int main()
 {
- 
-    int arr[15], n = 10, i, j, pos, data;
-    printf("Enter elements in array---\n\n");
-    
-    for(i=0;i<n;i++)
+
+    int arr[12], n = 10, i, j, pos, data;
+    printf("Enter elements in array\n");
+
+    for (i = 0; i < n; i++)
     {
-        printf("Index No [%d] -- ",i);
-        scanf("%d",&arr[i]);
+        printf("Index No %d: ", i);
+        scanf("%d", &arr[i]);
+    }
+    system("cls");
+    printf("\nArray Elements are\n");
+
+    for (i = 0; i < n; i++)
+    {
+        printf("%d  ", arr[i]);
     }
 
-    printf("Array Elements are---\n\n");
+    printf("\nEnter a position: ");
+    scanf("%d", &pos);
+    printf("Enter a data: ");
+    scanf("%d", &data);
 
-    for(i=0;i<n;i++)
+    for (i = n; i > pos - 1; i--)
     {
-        printf("%d  ",arr[i]);
-    }
-
-    printf("\n\nEnter a position to insert element: "); scanf("%d", &pos);
-    printf("\nEnter a data to insert in element: "); scanf("%d", &data);
-
-    for(i=n;i>pos-1;i--)
-    {
-        arr[i+1] = arr[i]; 
+        arr[i + 1] = arr[i];
     }
     arr[pos] = data;
     n++;
 
-    printf("Array Elements After insertion are---\n\n");
+    printf("Array Elements are\n");
 
-    for(i=0;i<n;i++)
+    for (i = 0; i < n; i++)
     {
-        printf("%d  ",arr[i]);
+        printf("%d  ", arr[i]);
     }
 }
