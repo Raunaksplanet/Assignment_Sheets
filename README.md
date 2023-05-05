@@ -1,5 +1,5 @@
 # College-programming-sheet
-So, I got a C programming sheet from my college, In which there is roughly  88 questions beginner to advance level. This questions covers Uniary,Binary and Ternary operator and also condition,iterative statements,martix,array,2-darray,characer array,strings and more 
+<h1>C Programming sheet: </h1>
 
 ![Lab Assignments - C Programming - Final (1)-1](https://user-images.githubusercontent.com/111748076/206483864-ef9aa8ff-6167-415a-9e92-df2607effd32.jpg)
 
@@ -13,6 +13,7 @@ So, I got a C programming sheet from my college, In which there is roughly  88 q
 
 
 
-<h1>Here is the Data structor sheet. Hope youre practicing as hard as Im doing</h1>
+<h1>C Data Structure sheet: </h1>
 [dsa question.pdf](https://github.com/Raunaksplanet/College-programming-sheets/files/10959612/dsa.question.pdf)
+<h1>C++ Programming sheet: :</h1>
 
