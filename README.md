@@ -1,4 +1,4 @@
-# College-programming-sheet
+# College-programming-sheets
 <h1>C Programming sheet: </h1>
 https://github.com/Raunaksplanet/C-CPP-DSA-Programming-sheet/files/11447510/c.sheet.pdf
 <h1>C Data Structure sheet: </h1>
