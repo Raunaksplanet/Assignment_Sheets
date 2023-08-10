@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -29,4 +30,10 @@ int main()
         }
         cout << endl;
     }
+
+    cout << "\n\n";
+
+    int u = 6, k = 0;
+    for (int i = 1; i < u; i++)
+        cout << setw(u - i) << setfill(' ') << "*" << setw(i + k++) << setfill('*') << "\n";
 }
