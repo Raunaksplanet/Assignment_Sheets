@@ -3,14 +3,21 @@ using namespace std;
 
 int main()
 {
-
-    int i, a, sum = 0;
-    cout << "Enter a number: ";
-    cin >> a;
-    for (i = 1; i <= a; i++)
+    int limit, i, rev, n;
+    cout << "Enter a limit: ";
+    cin >> limit;
+    for (i = 0; i <= limit; i++)
     {
-        cout << ("%d", i) << " X " << ("%d", i) << " = " << ("%d", i * i) << endl;
-        sum = sum + (i * i);
+        n = i * i * i;
+        for (; n > 0; (n = n / 10))
+        {
+            if ((n % 10) != 0)
+                break;
+            else
+                cout << "0 ";
+        }
+        for (rev = 0; n > 0; (n = n / 10))
+            rev = rev * 10 + (n % 10);
+        cout << rev << "  ";
     }
-    cout << "The sum of above series is " << sum << endl;
 }
