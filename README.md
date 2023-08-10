@@ -2,9 +2,13 @@
 <br>
 
 # Sheets
+[➤ C](https://github.com/Raunaksplanet/Assignment_Sheets/files/12315969/C.pdf)
+
 [➤ C++](https://github.com/Raunaksplanet/Assignment_Sheets/files/12315011/C%2B%2B.assignment.pdf)
 
 [➤ D.S.A In C](https://github.com/Raunaksplanet/Assignment_Sheets/files/12315012/dsa.question.pdf)
+
+
 
 
 
