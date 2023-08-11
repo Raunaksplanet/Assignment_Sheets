@@ -1,5 +1,6 @@
 # Assignment sheets C C++ DSA(C)
-<br>
+    In this Repo I have 3 Assignment Sheets, C, C++ and DSA in C. I got all three programming 
+    sheets from my university. Fell free to provide more efficient code for any problem
 
 # Sheets
 [➤ C](https://github.com/Raunaksplanet/Assignment_Sheets/files/12315969/C.pdf)
